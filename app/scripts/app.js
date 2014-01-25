@@ -1,18 +1,18 @@
 'use strict';
 
-angular.module('VinoDropFrontApp', [
+angular.module('vinoDropFrontApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
   'ngRoute',
-  'VinoDropApp.modules.wine'
+  'vinoDropApp.modules.wine'
 ])
   .config([
         '$routeProvider',function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'modules/wine/partials/wine-list-tpl.html',
-        controller: 'WineListCtrl'
+        controller: 'wineListCtrl'
       })
       .otherwise({
         redirectTo: '/'

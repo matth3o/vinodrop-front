@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-    .module('VinoDropApp.modules.wine', [
+    .module('vinoDropApp.modules.wine', [
         'ngResource',
-        'VinoDropApp.modules.wine.controller.list'
+        'vinoDropApp.modules.wine.controller.list'
     ]);
