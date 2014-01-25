@@ -1,0 +1,35 @@
+{
+    "global": {
+        "messages": {
+            "errors": {
+                "server": {
+                    "noresponse": "No response."
+                }
+            }
+        }
+    },
+    "navbar": {
+        "link": {
+            "wines": "Wines"
+        }
+    },
+    "wine": {
+        "messages": {
+            "success": {
+                "created": "Wine was successfully created."
+            },
+            "errors": {
+                "WINE_ALREADY_EXISTS": "Wine already exists."
+            }
+        },
+        "list": {
+            "title": "Wine list",
+            "search": {
+                "placeholder": "Search"
+            },
+            "table": {
+                "name": "Name"
+            }
+        }
+    }
+}

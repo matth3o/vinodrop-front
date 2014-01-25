@@ -42,7 +42,7 @@
 
     <div class="collapse navbar-collapse" ng-class="{collapse: collapse, in: !collapse}">
         <ul class="nav navbar-nav">
-            <li><a href="#/wines">Vins</a></li>
+            <li><a href="#/wines">{{ 'navbar.link.wines' | translate }}</a></li>
         </ul>
     </div>
 </nav>
@@ -72,22 +72,22 @@
     ga('send', 'pageview');
 </script>
 
-<!--[if lt IE 9]>
-<script src="bower_components/es5-shim/es5-shim.js"></script>
-<script src="bower_components/json3/lib/json3.min.js"></script>
-<![endif]-->
-
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
 <script src="bower_components/jquery/jquery.js"></script>
 <script src="bower_components/angular/angular.js"></script>
-<script src="bower_components/sass-bootstrap/dist/js/bootstrap.js"></script>
 <script src="bower_components/angular-resource/angular-resource.js"></script>
 <script src="bower_components/angular-cookies/angular-cookies.js"></script>
 <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
 <script src="bower_components/angular-route/angular-route.js"></script>
 <script src="bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls.js"></script>
+<script src="bower_components/angular-translate/angular-translate.js"></script>
+<script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
+<script src="bower_components/sass-bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-local-storage/angular-local-storage.js"></script>
 <!-- endbower -->
+<script src="bower_components/angular-dynamic-locale/src/tmhDinamicLocale.js"></script>
 <!-- endbuild -->
 
 <!-- build:js({.tmp,app}) scripts/scripts.js -->

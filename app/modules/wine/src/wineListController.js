@@ -2,7 +2,8 @@
 
 angular
     .module('vinoDropApp.modules.wine.controller.list', [
-        'ui.bootstrap'
+        'ui.bootstrap',
+        'pascalprecht.translate'
     ])
     .controller('wineListCtrl', ['$scope', function ($scope) {
         $scope.wines = [

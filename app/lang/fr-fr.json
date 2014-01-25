@@ -1,0 +1,35 @@
+{
+    "global": {
+        "messages": {
+            "errors": {
+                "server": {
+                    "noresponse": "Pas de réponse du serveur"
+                }
+            }
+        }
+    },
+    "navbar": {
+        "link": {
+            "wines": "Les vins"
+        }
+    },
+    "wine": {
+        "messages": {
+            "success": {
+                "created": "Le vin a bien été créé."
+            },
+            "errors": {
+                "WINE_ALREADY_EXISTS": "Le vin existe déjà."
+            }
+        },
+        "list": {
+            "title": "Liste des vins",
+            "search": {
+                "placeholder": "Recherche"
+            },
+            "table": {
+                "name": "Nom"
+            }
+        }
+    }
+}
