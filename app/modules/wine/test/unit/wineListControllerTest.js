@@ -9,7 +9,7 @@ describe('wine module', function () {
         $httpBackend = $injector.get('$httpBackend');
 
         this.addMatchers({
-            toEqualData: function(expected) {
+            toEqualData: function (expected) {
                 return angular.equals(this.actual, expected);
             }
         });
@@ -26,7 +26,7 @@ describe('wine module', function () {
             $controller = $injector.get('$controller');
             $ctrl = $controller('wineListCtrl', {$scope: $scope});
 
-            expectedWines =  [
+            expectedWines = [
                 {
                     id: 'c5b24dd33138474ab6f18e5a9824c262'
                 },

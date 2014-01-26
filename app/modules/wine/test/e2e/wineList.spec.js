@@ -1,4 +1,6 @@
-describe('Tests !!', function() {
+'use strict';
+
+describe('Tests !!', function () {
 
 //    it('should greet the named user', function() {
 //        browser.get('http://www.angularjs.org');
@@ -17,7 +19,9 @@ describe('Tests !!', function() {
             var element = browser.findElement(by.id('wines-list'));
             expect(element.isDisplayed()).toBe(true);
 //            expect(element.getText()).toBe('An example route');
-        });
+        }
+
+        );
     });
 
 });
